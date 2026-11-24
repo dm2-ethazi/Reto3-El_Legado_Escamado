@@ -28,3 +28,13 @@ El proyecto plantea un anuario digital para consultar y gestionar fichas de pers
 | `.github/workflows/` | Futura configuración de CI/CD |
 | `README.md` | Presentación del proyecto |
 | `.gitignore` | Exclusiones del control de versiones |
+
+## Metodología de trabajo
+
+El desarrollo del proyecto se organizará mediante:
+
+- Issues para la planificación y el seguimiento de tareas.
+- Ramas independientes para cada funcionalidad.
+- Commits siguiendo la nomenclatura Conventional Commits.
+- Pull Requests con revisión por parte de otro integrante.
+- Validaciones automáticas mediante GitHub Actions.
