@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/api/build/
+/api/dist/
+.venv/
+venv/
+ENV/
+
+# JavaFX y Maven
+/desktop-javafx/**/target/
+*.class
+
+# Android y Gradle
+.gradle/
+/android/**/build/
+/android/local.properties
+/android/**/.cxx/
+/android/**/.externalNativeBuild/
+*.apk
+*.aab
+
+# Unity
+/unity/[Ll]ibrary/
+/unity/[Tt]emp/
+/unity/[Oo]bj/
+/unity/[Bb]uild/
+/unity/[Bb]uilds/
+/unity/[Ll]ogs/
+/unity/[Uu]ser[Ss]ettings/
+/unity/[Mm]emoryCaptures/
+/unity/*.csproj
+/unity/*.sln
+
+# IDE y archivos temporales
+.idea/
+.vscode/
+.vs/
+*.iml
+*.suo
+*.user
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Variables de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+!.env.sample
+.envrc.local
+credentials.json
+secrets.json
+*.jks
+*.keystore
+*.key
+*.p12
+*.pfx
